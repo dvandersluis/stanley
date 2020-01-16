@@ -1,3 +1,6 @@
+require 'faraday'
+require 'faraday/detailed_logger'
+require 'faraday_middleware'
 require 'zeitwerk'
 
 module Stanley
